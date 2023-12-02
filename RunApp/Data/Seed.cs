@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using RunApp.Data;
 using RunApp.Models;
-using RunGroopWebApp.Data.Enum;
-using RunGroopWebApp.Models;
+using RunApp.Data.Enum;
 
-namespace RunGroopWebApp.Data
+
+namespace RunApp.Data
 {
     public class Seed
     {

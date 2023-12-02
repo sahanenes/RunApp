@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using RunApp.Data;
-using RunGroopWebApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

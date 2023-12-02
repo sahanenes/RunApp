@@ -1,4 +1,4 @@
-﻿namespace RunGroopWebApp.Data.Enum
+﻿namespace RunApp.Data.Enum
 {
     public enum RaceCategory
     {

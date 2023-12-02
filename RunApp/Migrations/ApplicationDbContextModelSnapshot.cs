@@ -68,7 +68,7 @@ namespace RunApp.Migrations
                     b.ToTable("AppUser");
                 });
 
-            modelBuilder.Entity("RunGroopWebApp.Models.Club", b =>
+            modelBuilder.Entity("RunApp.Models.Club", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -103,7 +103,7 @@ namespace RunApp.Migrations
                     b.ToTable("Clubs");
                 });
 
-            modelBuilder.Entity("RunGroopWebApp.Models.Race", b =>
+            modelBuilder.Entity("RunApp.Models.Race", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -167,7 +167,7 @@ namespace RunApp.Migrations
                     b.Navigation("Address");
                 });
 
-            modelBuilder.Entity("RunGroopWebApp.Models.Club", b =>
+            modelBuilder.Entity("RunApp.Models.Club", b =>
                 {
                     b.HasOne("RunApp.Models.Address", "Address")
                         .WithMany()
@@ -182,7 +182,7 @@ namespace RunApp.Migrations
                     b.Navigation("AppUser");
                 });
 
-            modelBuilder.Entity("RunGroopWebApp.Models.Race", b =>
+            modelBuilder.Entity("RunApp.Models.Race", b =>
                 {
                     b.HasOne("RunApp.Models.Address", "Address")
                         .WithMany()

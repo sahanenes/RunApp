@@ -1,9 +1,9 @@
 ﻿using RunApp.Models;
-using RunGroopWebApp.Data.Enum;
+using RunApp.Data.Enum;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RunGroopWebApp.Models
+namespace RunApp.Models
 {
     public class Race
     {
