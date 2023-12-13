@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  runapp:
+    image: ${DOCKER_REGISTRY-}runapp
+    build:
+      context: .
+      dockerfile: RunApp/Dockerfile
