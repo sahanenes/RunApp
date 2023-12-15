@@ -9,11 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\NewFolder\**" />
-    <Content Remove="Views\NewFolder\**" />
-    <EmbeddedResource Remove="Views\NewFolder\**" />
-    <None Remove="Views\NewFolder\**" />
-  </ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+ <Compile Remove="Views\NewFolder\**" /> <Content Remove="Views\NewFolder\**" />
+ <EmbeddedResource Remove="Views\NewFolder\**" /> <None Remove="Views\NewFolder\**" />
+ <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" /> </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Views\Club\Detail.cs" />
@@ -22,7 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.17.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
