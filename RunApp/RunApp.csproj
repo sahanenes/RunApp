@@ -12,7 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
  <Compile Remove="Views\NewFolder\**" /> <Content Remove="Views\NewFolder\**" />
  <EmbeddedResource Remove="Views\NewFolder\**" /> <None Remove="Views\NewFolder\**" />
- <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" /> </ItemGroup>
+ <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />  <None Remove="Views\Account\" />
+</ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Views\Club\Detail.cs" />
@@ -29,4 +30,7 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Account\" />
+  </ItemGroup>
 </Project>
