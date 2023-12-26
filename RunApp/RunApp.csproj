@@ -13,6 +13,7 @@
  <Compile Remove="Views\NewFolder\**" /> <Content Remove="Views\NewFolder\**" />
  <EmbeddedResource Remove="Views\NewFolder\**" /> <None Remove="Views\NewFolder\**" />
  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />  <None Remove="Views\Account\" />
+ <None Remove="Views\Dashboard\" />
 </ItemGroup>
 
   <ItemGroup>
@@ -32,5 +33,6 @@
 
   <ItemGroup>
     <Folder Include="Views\Account\" />
+    <Folder Include="Views\Dashboard\" />
   </ItemGroup>
 </Project>
